@@ -1,6 +1,0 @@
----
-title: test
-sidebar:
-  open: false
-  exclude: false
----
