@@ -7,7 +7,7 @@ settings:
     merge: true
 content:
   - name: en
-    label: English (EN)
+    label: Main
     type: group
     items:
     - name: glossary
