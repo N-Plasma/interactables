@@ -35,7 +35,7 @@ content:
       type: collection
       path: content
       format: raw
-      filename: "{primary}.md"
+      filename: "{primary}.html"
       view:
         fields: 
           - title
