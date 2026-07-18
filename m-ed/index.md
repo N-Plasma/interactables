@@ -1,6 +1,6 @@
 ---
 title: M-ED
-layout: pyscript
+layout: m-ed
 ---
 
 # {{ page.title }}
