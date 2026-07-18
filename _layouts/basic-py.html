@@ -4,15 +4,18 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Basic Py</title>
-        <script src="./../offline/mini-coi-fd.js"></script>
         <script type="module" src="./../offline/pyscript/core.js" offline></script>
         <link rel="stylesheet" href="./../offline/pyscript/core.css">
     </head>
 <body>
 
+    <mpy-config>
+        interpreter = "mpy/micropython.mjs"
+    </mpy-config>
+
     {{ content }}
 
-    Basic Py Layout
+    <script type="mpy" src="./main.py" config="./pyscript.toml" worker terminal></script>
 
 </body>
 </html>
